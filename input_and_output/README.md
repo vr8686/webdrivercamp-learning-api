@@ -21,4 +21,4 @@ All the finished exercises of assigment "JSON, Input and Output" are in followin
 
 ## Comments
 
-Added module ans function docstrings to meet _pycodestyle_ requirementa.
+Added module ans function docstrings to meet _pycodestyle_ requirements.

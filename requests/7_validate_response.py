@@ -23,7 +23,7 @@ def find_mismatched_data(url: str, file_name: str) -> dict:
     """
 
     # Get data from the API
-    r = requests.get(url, timeout=5)
+    r = requests.get(url, timeout=10)
     results_api = r.json()['results']
 
     # Load data from the JSON file

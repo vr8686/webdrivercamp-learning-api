@@ -17,10 +17,10 @@ def delete_repo(url):
     """
     r = requests.delete(url,
                         timeout=5,
-                        auth=HTTPBasicAuth('vr8686', "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"),
+                        auth=HTTPBasicAuth('trainingprofile', "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"),
                         json={
                             "repo": 'repo-created-with-api',
-                            "owner": 'vr8686',
+                            "owner": 'trainingprofile',
                             'Accept': 'application/vnd.github+json'
                         },
                         )
@@ -29,7 +29,7 @@ def delete_repo(url):
 
 
 if __name__ == "__main__":
-    owner = "vr8686"
+    owner = "trainingprofile"
     repo = 'repo-created-with-api'
     url = f'https://api.github.com/repos/{owner}/{repo}'
 

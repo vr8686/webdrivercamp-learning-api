@@ -19,7 +19,7 @@ def create_repo(url: str) -> dict:
     """
     r = requests.post(url,
                       timeout=5,
-                      auth=HTTPBasicAuth('vr8686', "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"),
+                      auth=HTTPBasicAuth('trainingprofile', "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"),
                       json={
                           "name": 'repo-created-with-api',
                           "private": True,

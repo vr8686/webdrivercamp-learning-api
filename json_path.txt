@@ -1,0 +1,6 @@
+0 - $..friends[*].name
+1 - $..friends[*].activities[*].hobbies
+2 - $..friends[*].activities[1].*
+3 - $.[0].friends[*].hobbies[0]
+400 - $..[?(@.age<35)][?(@.city=="Portland")].name
+500 - $[?(@.hobbies[*] contains "Music" || @.friends[*].hobbies[*] contains "Music")].name

@@ -17,7 +17,7 @@ def delete_repo(url):
     """
     r = requests.delete(url,
                         timeout=5,
-                        auth=HTTPBasicAuth('trainingprofile', "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"),
+                        auth=HTTPBasicAuth('trainingprofile', "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"),
                         json={
                             "repo": 'repo-created-with-api',
                             "owner": 'trainingprofile',
